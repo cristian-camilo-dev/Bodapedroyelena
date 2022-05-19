@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Rainbow Saturday';
+    src: url('RainbowSaturday.eot');
+    src: url('RainbowSaturday.eot?#iefix') format('embedded-opentype'),
+        url('RainbowSaturday.woff2') format('woff2'),
+        url('RainbowSaturday.woff') format('woff'),
+        url('RainbowSaturday.svg#RainbowSaturday') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

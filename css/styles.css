@@ -129,13 +129,13 @@ body {
 .music__title {
   color: #ffffff;
   font-size: 1.1em;
-  font-weight: 100;
+  font-weight: 500;
   margin: 0;
 }
 .music__artista {
   color: #ffffff;
   font-size: 0.8em;
-  font-weight: 100;
+  font-weight: 500;
   margin: 0;
 }
 .music__icon {
@@ -233,7 +233,7 @@ body {
 .title-interesar {
   color: #87424C;
   font-size: 1.8em;
-  font-weight: 100;
+  font-weight: 500;
   margin: 50px;
   text-align: center;
   font-family: "Franklin Gothic Medium", sans-serif;

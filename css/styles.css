@@ -471,11 +471,18 @@ color: #0ac442;
   color: #87424C;
   font-size: 1.2em;
   margin-bottom: 50px;
+  margin-top: 100px;
   text-align: center;
 }
 
 
 
+
+.corazon{
+  position: absolute;
+    left: 200px;
+    margin-top: 39px;
+}
 
 .heart {
   width: 32px; 

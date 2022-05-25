@@ -27,22 +27,34 @@
           <ul class="menu-top" id="mostrar">
             <li class="menu-top__item">
               <a href="#" class="menu-top__link"
-                ><span class="icon-clone">Mi Coleccion</span></a
+                ><span class="icon-clone">Nuestras canciones</span></a
               >
             </li>
             <li class="menu-top__item">
               <a href="#" class="menu-top__link"
-                ><span class="icon-user">Mi Perfil</span></a
+                ><span class="icon-user">Preboda</span></a
               >
             </li>
             <li class="menu-top__item">
               <a href="#" class="menu-top__link"
-                ><span class="icon-users">Cambiar cuenta</span></a
+                ><span class="icon-users">Ceremonia</span></a
+              >
+            </li>
+
+            <li class="menu-top__item">
+              <a href="#" class="menu-top__link"
+                ><span class="icon-users">Celebración</span></a
               >
             </li>
             <li class="menu-top__item">
               <a href="#" class="menu-top__link"
-                ><span class="icon-logout">Cerrar sesion</span></a
+                ><span class="icon-users">Peluquerías recomendadas</span></a
+              >
+            </li>
+
+            <li class="menu-top__item">
+              <a href="#" class="menu-top__link"
+                ><span class="icon-logout">Confirmación</span></a
               >
             </li>
           </ul>
@@ -51,7 +63,7 @@
     </header>
     <div class="scroll">
       <div class="scroll__img-conten">
-        <img src="img/IMG_7910(1)-min.jpg" alt="" class="scroll__img" />
+        <img src="img/principal.JPG" alt="" class="scroll__img" />
       </div>
       <div class="scroll__conten">
         <h1 class="scroll__title">Pedro y Elena</h1>
@@ -64,22 +76,25 @@
         </p>
 
         <a href="#" class="scroll__button" id="reproducir">Confirmación</a>
-        <audio src="music/On My Way.mp3" id="play"></audio>
+      </div>
+      <h2 class="canciones">Nuestras canciones</h2>
+      <div class="btn-play">
+        <button class="btn-play__btn" id="play">
+          <span class="icon-play"></span>
+        </button>
       </div>
 
       <div class="music">
         <div class="grid-2-small">
           <div class="music__artista">
             <div class="music_img">
-              <img
-                src="img/30D35183-446A-40E2-9E0B-D86F34AC046D.jpg"
-                alt=""
-                class="music__img"
-              />
+              <img src="img/detodo.png" alt="" class="music__img" />
             </div>
             <div class="music__info">
               <a href="#" id="ILoveYouBaby">
-                <h2 class="music__title">Ily (I love you baby) (feat. Emiliee)</h2>
+                <h2 class="music__title">
+                  Ily (I love you baby) (feat. Emiliee)
+                </h2>
                 <p class="music__artista">El principio de todo</p>
                 <audio
                   src="music/Surf Mesa - ily (i love you baby) (feat. Emilee) (Official Audio) (128 kbps).mp3"
@@ -89,7 +104,7 @@
             </div>
           </div>
           <div class="music__icon">
-            <span class="icon-heart-empty"></span>
+            <span class="icon-heart" id="corazon-icon"></span>
             <span class="icon-minus-squared-alt"></span>
             <span class="icon-ellipsis-vert"></span>
           </div>
@@ -97,11 +112,7 @@
         <div class="grid-2-small">
           <div class="music__artista">
             <div class="music_img">
-              <img
-                src="img/barco.jpeg"
-                alt=""
-                class="music__img"
-              />
+              <img src="img/paseo.png" alt="" class="music__img" />
             </div>
             <div class="music__info">
               <a href="#" id="sentidos">
@@ -115,7 +126,7 @@
             </div>
           </div>
           <div class="music__icon">
-            <span class="icon-heart-empty"></span>
+            <span class="icon-heart"></span>
             <span class="icon-minus-squared-alt"></span>
             <span class="icon-ellipsis-vert"></span>
           </div>
@@ -123,15 +134,11 @@
         <div class="grid-2-small">
           <div class="music__artista">
             <div class="music_img">
-              <img
-                src="img/elegantes.jpg"
-                alt=""
-                class="music__img"
-              />
+              <img src="img/sol.jpeg" alt="" class="music__img" />
             </div>
             <div class="music__info">
               <a href="#" id="andreaBocelli">
-                <h2 class="music__title">Con te partirò </h2>
+                <h2 class="music__title">Con te partirò</h2>
                 <p class="music__artista">Sunset en Formentera</p>
                 <audio
                   src="music/Andrea Bocelli - Con Te Partirò (2016 Orchestra and Choir Version) (128 kbps).mp3"
@@ -141,7 +148,7 @@
             </div>
           </div>
           <div class="music__icon">
-            <span class="icon-heart-empty"></span>
+            <span class="icon-heart"></span>
             <span class="icon-minus-squared-alt"></span>
             <span class="icon-ellipsis-vert"></span>
           </div>
@@ -150,11 +157,7 @@
         <div class="grid-2-small">
           <div class="music__artista">
             <div class="music_img">
-              <img
-                src="img/vacaciones.png"
-                alt=""
-                class="music__img"
-              />
+              <img src="img/vestido.jpeg" alt="" class="music__img" />
             </div>
             <div class="music__info">
               <a href="#" id="leave">
@@ -168,21 +171,16 @@
             </div>
           </div>
           <div class="music__icon">
-            <span class="icon-heart-empty"></span>
+            <span class="icon-heart"></span>
             <span class="icon-minus-squared-alt"></span>
             <span class="icon-ellipsis-vert"></span>
           </div>
         </div>
 
-
-        <div class="grid-2-small play-lits  "  >
+        <div class="grid-2-small play-lits">
           <div class="music__artista">
             <div class="music_img">
-              <img
-                src="img/gris.jpg"
-                alt=""
-                class="music__img"
-              />
+              <img src="img/camino.jpeg" alt="" class="music__img" />
             </div>
             <div class="music__info">
               <a href="#" id="secret">
@@ -196,7 +194,7 @@
             </div>
           </div>
           <div class="music__icon">
-            <span class="icon-heart-empty"></span>
+            <span class="icon-heart"></span>
             <span class="icon-minus-squared-alt"></span>
             <span class="icon-ellipsis-vert"></span>
           </div>
@@ -205,16 +203,14 @@
         <div class="grid-2-small play-lits">
           <div class="music__artista">
             <div class="music_img">
-              <img
-                src="img/barco.jpeg"
-                alt=""
-                class="music__img"
-              />
+              <img src="img/mano.jpeg" alt="" class="music__img" />
             </div>
             <div class="music__info">
-              <a href="#"  id="todoDeTi" >
+              <a href="#" id="todoDeTi">
                 <h2 class="music__title">Todo de ti</h2>
-                <p class="music__artista">Preparaos para celebrarlo a lo grande</p>
+                <p class="music__artista">
+                  Preparaos para celebrarlo a lo grande
+                </p>
                 <audio
                   src="music/Rauw Alejandro - Todo De Ti (Letra_Lyrics) (128 kbps).mp3"
                   id="todoDeTi_play"
@@ -223,34 +219,122 @@
             </div>
           </div>
           <div class="music__icon">
-            <span class="icon-heart-empty"></span>
+            <span class="icon-heart"></span>
             <span class="icon-minus-squared-alt"></span>
             <span class="icon-ellipsis-vert"></span>
           </div>
         </div>
 
-        <h1 class="title-interesar">También te puede interesar...</h1>
+        <h2 class="title-interesar">También te puede interesar...</h2>
         <div class="scroll__img-conten">
-          <img src="img/IMG_7910(1)-min.jpg" alt="" class="scroll__img" />
+          <img
+            src="img/ho.jpeg"
+            alt="HO Ciudad de Jaén"
+            class="scroll__img-interesar"
+          />
         </div>
-        <div class="scroll__conten">
-          <h1 class="scroll__title">Pedro y Elena</h1>
-          <p class="scroll__description">
-            Nos encantaría compartir contigo este día tan especial
+        <div class="preboda">
+          <h3>PREBODA Viernes 18Nov.</h3>
+          <h4>Cóctel tarde-noche · HO Ciudad de Jaén</h4>
+          <p>
+            Autovía, Carr.Bailén - Motril, km 36-37 , 23009 Jaén <br />
+            <span>DRESSCODE · Cóctel de noche</span>
           </p>
-          <p class="scroll__description">
-            El Sagrario - Catedral de Jaén <br />Sábado 19 de Noviembre 2022 11.00
-            AM
+        </div>
+        <div>
+          <img
+            src="img/reproductormusica-removebg-preview.png"
+            alt=""
+            class="reproductormusica"
+          />
+        </div>
+
+        <div class="scroll__img-conten">
+          <img
+            src="img/Sagrario-CatedralJaen-1.jpg"
+            alt="HO Ciudad de Jaén"
+            class="scroll__img-interesar"
+          />
+        </div>
+        <div class="preboda">
+          <h3>CEREMONIA Sábado 19Nov. 11:00H.</h3>
+
+          <p>
+            Calle Campanas 3. 23002 Jaén
+            <br />
+            <span
+              >DRESSCODE MUJER : Pamela · Tocado · Excluido color
+              negro/blanco</span
+            >
           </p>
-  
-          <a href="#" class="scroll__button" id="reproducir">Confirmación</a>
-          <audio src="music/On My Way.mp3" id="play"></audio>
+        </div>
+        <div>
+          <img
+            src="img/reproductormusica-removebg-preview.png"
+            alt=""
+            class="reproductormusica"
+          />
+        </div>
+
+        <div class="scroll__img-conten">
+          <img
+            src="img/SDESDF.jpg"
+            alt="HO Ciudad de Jaén"
+            class="scroll__img-interesar"
+          />
+        </div>
+        <div class="preboda">
+          <h3>CELEBRACIÓN</h3>
+          <h4>HO Ciudad de Jaén</h4>
+          <p>
+            Cóctel de bienvenida : Jardín de la Estrella | Celebración : Salón
+            Estrella <br />
+          </p>
+        </div>
+
+        <div>
+          <img
+            src="img/reproductormusica-removebg-preview.png"
+            alt=""
+            class="reproductormusica"
+          />
         </div>
         
+        <div class="scroll__img-conten">
+          <img src="img/peluqueria.jpg" alt="HO Ciudad de Jaén" class="scroll__img-interesar" />
+        </div>
+        <div class="preboda">
+          <h3>PELUQUERÍA RECOMENDADA</h3>
+          <h3>Salón Diego Cámara</h3>
+          <h4>diegocamarahairandmakeup@gmail.com</h4>
+          <H4 class="icon-instagram">@_diegocamara</H4>
+           
+          </>
         
-        
-        
-        
+        </div>
+        <div>
+          <img
+            src="img/reproductormusica-removebg-preview.png"
+            alt=""
+            class="reproductormusica"
+          />
+        </div>
+
+        <div class="container__cards">
+          <div class="card">
+            <div class="cover__card">
+              <img src="/img/30D35183-446A-40E2-9E0B-D86F34AC046D.jpg" alt="" />
+            </div>
+            <h2>CONFÍRMANOS TU ASISTENCIA AQUÍ:</h2>
+            <a href="#" class="scroll__button_confirmacion" id="reproducir"
+              >Confirmación</a
+            >
+          </div>
+        </div>
+
+        <div>
+          <h2 class="footer_titulo">¡SE VA A LIAR! ATTE. PEDRO Y ELENA</h2>
+        </div>
       </div>
     </div>
     <div class="fixed">
@@ -259,20 +343,16 @@
           <span class="icon-heart-empty"></span>
         </div>
         <div class="box">
-          <p class="parrafo">
-            ES89 0073 0100 5106 5230 6059
-          </p>
+          <p class="parrafo">ES89 0073 0100 5106 5230 6059</p>
         </div>
         <div class="music__icon">
           <button class="icon-clone btn-copy"></button>
-          <span class="tooltip ">IBAN Copiado</span> 
+          <span class="tooltip">IBAN Copiado</span>
         </div>
       </div>
       <header class="main-header">
-       <nav class="main-nav">
-         <div id="cuenta">
-
-         </div>
+        <nav class="main-nav">
+          <div id="cuenta"></div>
           <ul class="menu">
             <li class="menu__item">
               <a href="#" class="menu__link">
@@ -296,13 +376,6 @@
             </li>
           </ul>
         </nav>
-
-        
-
-        
-
-
-
       </header>
     </div>
     <script src="js/script.js"></script>

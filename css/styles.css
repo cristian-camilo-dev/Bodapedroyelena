@@ -2,32 +2,37 @@ body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .grid-2-small {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 70% 30%;
   grid-template-columns: 70% 30%;
-  
+  margin-bottom: 5px;
 }
 
 .header {
   position: absolute;
   top: 0;
-  width: 100%; }
-  .header__menu {
-    background-color: transparent;
-    line-height: 3; }
-  .header__icon {
-    color: #c9c9c9;
-    margin-left: .5em;
-    font-size: 1.2em; }
-  .header__icon-right {
-    color: #c9c9c9;
-    margin-right: .5em;
-    text-align: right;
-    font-size: 1.2em; }
+  width: 100%;
+}
+.header__menu {
+  background-color: transparent;
+  line-height: 3;
+}
+.header__icon {
+  color: #c9c9c9;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+.header__icon-right {
+  color: #c9c9c9;
+  margin-right: 0.5em;
+  text-align: right;
+  font-size: 1.2em;
+}
 
 .menu-top {
   position: fixed;
@@ -39,77 +44,105 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.4);
-  text-align: left; }
-  .menu-top__item {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    line-height: 2; }
-  .menu-top__link {
-    text-decoration: none;
-    font-family: "Franklin Gothic Medium", sans-serif;
-    font-size: .9em;
-    color: #ffffff; }
+  text-align: left;
+}
+.menu-top__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2;
+}
+.menu-top__link {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 0.9em;
+  color: #ffffff;
+}
 
 .scroll {
   width: 100%;
   padding-top: 5em;
   padding-bottom: 8em;
-  background: -webkit-gradient(linear, left top, left bottom, from(#5F6D8A), color-stop(50%, #000000));
-  background: -webkit-linear-gradient(#5F6D8A, #000000 50%);
-  background: -o-linear-gradient(#5F6D8A, #000000 50%);
-  background: linear-gradient(#5F6D8A, #000000 50%); }
-  .scroll__img-conten {
-    width: 100%; }
-  .scroll__conten {
-    text-align: center; }
-  .scroll__img {
-    width: 200px;
-    display: block;
-    height: 200px;
-    margin: auto; }
-  .scroll__title {
-    color: #ffffff;
-    font-family: "Rainbow Saturday", sans-serif;
-    font-size: 3em;
-    font-weight: 300;
-    margin:5px;
-  }
-  .scroll__description {
-    color: #ffffff;
-    font-family: "Franklin Gothic Medium", sans-serif;
-    font-size: .8em;
-    line-height: 2; }
-  .scroll__button {
-    background-color: #0ac442;
-    text-decoration: none;
-    color: #ffffff;
-    text-transform: uppercase;
-    padding: .8em 1.2em;
-    border-radius: 50px;
-    font-family: "Franklin Gothic Medium", sans-serif;
-    letter-spacing: 0.1em; }
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#5f6d8a),
+    color-stop(50%, #000000)
+  );
+  background: -webkit-linear-gradient(#87424C,#E3B7A5, #FEFBFB 100%);
+  background: -o-linear-gradient(#87424C,#E3B7A5, #FEFBFB 100%);
+  background: linear-gradient(#87424C,#E3B7A5, #FEFBFB 100%);
+}
+.scroll__img-conten {
+  width: 100%;
+}
+.scroll__conten {
+  text-align: center;
+}
+.scroll__img {
+  width: 200px;
+  display: block;
+  height: 200px;
+  margin: auto;
+}
+
+
+.scroll__img-interesar{
+  width: 250px;
+  display: block;
+  height: 250px;
+  margin: auto;
+}
+.scroll__title {
+  color: #ffffff;
+  font-family: "Rainbow Saturday", sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  margin: 5px;
+}
+.scroll__description {
+  color: #ffffff;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-size: 0.8em;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.scroll__button {
+  background-color: #87424C;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0.8em 1.2em;
+  border-radius: 50px;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  letter-spacing: 0.1em;
+}
 
 .music {
-  margin-top: 2em;
+ 
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0.5em;
-  font-family: "Franklin Gothic Medium", sans-serif; }
-  .music__title {
-    color: #ffffff;
-    font-size: 1.1em;
-    font-weight: 100;
-    margin: 0; }
-  .music__artista {
-    color: #A1A1A1;
-    font-size: .8em;
-    font-weight: 100;
-    margin: 0; }
-  .music__icon {
-    color: #5C5C5C;
-    font-size: 1.3em;
-    line-height: 2; }
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+.music__title {
+  color: #ffffff;
+  font-size: 1.1em;
+  font-weight: 100;
+  margin: 0;
+}
+.music__artista {
+  color: #ffffff;
+  font-size: 0.8em;
+  font-weight: 100;
+  margin: 0;
+}
+.music__icon {
+  color: #ffffff;
+  font-size: 1.3em;
+  line-height: 2;
+}
 
 .grid-3 {
   display: -ms-grid;
@@ -117,26 +150,31 @@ body {
   -ms-grid-columns: 10% 80% 10%;
   grid-template-columns: 10% 80% 10%;
   background-color: #222327;
-  border-bottom: 2px solid #131313; }
+  border-bottom: 2px solid #131313;
+}
 
 .fixed {
   position: fixed;
   width: 100%;
-  bottom: 0; }
+  bottom: 0;
+}
 
 .name {
   color: #ffffff;
-  font-size: .9em;
+  font-size: 0.9em;
   line-height: 2;
   text-align: center;
-  font-family: "Franklin Gothic Medium", sans-serif; }
-  .name__artista {
-    color: #A1A1A1;
-    font-size: .7em; }
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+.name__artista {
+  color: #ffffff;
+  font-size: 0.7em;
+}
 
 .main-nav {
-  background-color: #222327;
-  padding: 1em 0.5em; }
+  background-color: #000000cf;
+  padding: 1em 0.5em;
+}
 
 .menu {
   display: -webkit-box;
@@ -144,38 +182,41 @@ body {
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 0; }
-  .menu__item {
-    -webkit-box-flex: 1;
-    -ms-flex: auto;
-    flex: auto;
-    text-align: center; }
-  .menu__icon {
-    display: block;
-    padding-bottom: .2em; }
-  .menu__link {
-    color: #A1A1A1;
-    display: block;
-    text-decoration: none;
-    font-family: "Franklin Gothic Medium", sans-serif;
-    font-weight: 100; }
+  padding: 0;
+}
+.menu__item {
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
+  flex: auto;
+  text-align: center;
+}
+.menu__icon {
+  display: block;
+  padding-bottom: 0.2em;
+}
+.menu__link {
+  color: #a1a1a1;
+  display: block;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  font-weight: 100;
+}
 
-.music__img{
+.music__img {
   width: 50px;
   height: auto;
   display: block;
   margin-right: 15px;
-  
-  border: 2px solid #131313;
-  box-shadow: 0 0 10px #131313;
-}  
 
-.music__artista{
-  display: flex;
   
+  box-shadow: 0 0 10px #131313;
 }
 
-.music__info{
+.music__artista {
+  display: flex;
+}
+
+.music__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,17 +224,15 @@ body {
   text-decoration: none;
 }
 
-.music__info a{
+.music__info a {
   text-decoration: none;
+  
 }
 
-.play-lits :hover{
-  background-color: #0ac442;
-}
-  
-.title-interesar{
-  color: #ffffff;
-  font-size: 1.5em;
+
+.title-interesar {
+  color: #87424C;
+  font-size: 1.8em;
   font-weight: 100;
   margin: 50px;
   text-align: center;
@@ -212,41 +251,36 @@ body {
 }
 
 .box .parrafo {
-  margin-right:20px ;
+  margin-right: 20px;
   font-family: "Franklin Gothic Medium", sans-serif;
-  
+
   font-size: 15px;
   text-shadow: 0 0 black;
   text-align: center;
-  color: #A1A1A1;
+  color: #fff;
 }
 
 .btn-copy {
-  background-color:#5C5C5C;
+  background-color: #5c5c5c;
   color: black;
   font-size: 20px;
   border: none;
-  
+
   border-radius: 5px;
   position: absolute;
-    top: 9px;
-    right: 23px;
+  top: 9px;
+  right: 23px;
 }
 
 .btn-copy:hover {
-  background-color: #5C5C5C;
+  background-color: #5c5c5c;
   color: black;
   font-size: 20px;
   border: none;
 }
 
-
-
-
-
-
 .tooltip {
-    visibility: hidden;
+  visibility: hidden;
   width: 120px;
   background-color: black;
   color: #fff;
@@ -257,36 +291,181 @@ body {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  
+
   left: 50%;
   margin-left: -60px;
 }
 
-
 .tooltip::after {
-    content: " ";
-    position: absolute;
-    bottom: 100%;  /* At the top of the tooltip */
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent black transparent;
-  }
+  content: " ";
+  position: absolute;
+  bottom: 100%; /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.show {
+  visibility: visible;
+}
+
+#cuenta {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+.canciones {
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 100;
+
+  text-align: center;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  margin-top: 50px;
+}
 
 
-  .show{
-    visibility: visible;
-  }
+.btn-play__btn{
+  background-color: #87424C;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 100%;
+  
+  padding: 5px;
+  
+ 
+}
+  
+.btn-play{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  
 
-  #cuenta{
-    color: #A1A1A1;
-    font-size: 16px;
-    font-weight: 100;
-    margin-bottom:15px;
-    text-align: center;
-    font-family: "Franklin Gothic Medium", sans-serif;
+}
 
-  }
+.icon-play{
+  color: #ffff;
+  font-size: 25px;
+  
+}
+
+/*
+color: #0ac442;
+    filter: drop-shadow(2px 4px 6px #0ac442);
+*/
+
+.corazon{
+    color: #87424C;
+    filter: drop-shadow(2px 4px 4px #8f3e4a);
+}
+
+.preboda h3{
+  font-family:"Franklin Gothic Medium", sans-serif;
+  color: #87424C;
+  font-size: 1em;
+  margin-top:10px;
+  margin-bottom:0;
+}
+
+.preboda h4{
+  font-family:"Franklin Gothic Medium", sans-serif;
+  color: black;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.preboda p{
+  color: black;
+  font-size: 0.7em;
+}
+
+.preboda p span{
+  color: #87424C;
+  font-size: 1em;
+}
+
+.reproductormusica{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/*card*/
 
 
+.container__cards{
+  width:100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 65%;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+}
+
+.cover__card{
+  width: 58%;
+  height: 180px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-left: 55px;
+}
+
+.cover__card img{
+  height: 100%;
+  transition: all 300ms;
+  
+  
+}
+
+.card h2{
+  font-family:"Franklin Gothic Medium", sans-serif;
+  color: #87424C;
+  font-size: 1.2em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.scroll__button_confirmacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #87424C;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0.8em 1.2em;
+  border-radius: 50px;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  letter-spacing: 0.1em;
+  width: 50%;
+  margin: auto;
+}
+
+.footer_titulo{
+  font-family:"Franklin Gothic Medium", sans-serif;
+  color: #87424C;
+  font-size: 1.2em;
+  margin-bottom: 50px;
+  text-align: center;
+}

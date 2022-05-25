@@ -24,7 +24,18 @@ const secret_play = document.getElementById('secret_play')
 const todoDeTi = document.getElementById('todoDeTi')
 const todoDeTi_play = document.getElementById('todoDeTi_play')
 
+const like = document.getElementsByClassName('icon-heart')
 
+
+
+
+for (let i = 0; i < like.length; i++) {
+    like[i].addEventListener('click', (e) => {
+        e.preventDefault()
+        like[i].classList.toggle('corazon')
+        console.log(like[i])
+    })
+}
 
 
 todoDeTi.addEventListener('click', (e) => {

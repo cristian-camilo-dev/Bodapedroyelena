@@ -26,34 +26,34 @@
           <span class="icon-ellipsis-vert" id="menu"></span>
           <ul class="menu-top" id="mostrar">
             <li class="menu-top__item">
-              <a href="#" class="menu-top__link"
+              <a href="#canciones" class="menu-top__link"
                 ><span class="icon-clone">Nuestras canciones</span></a
               >
             </li>
             <li class="menu-top__item">
-              <a href="#" class="menu-top__link"
+              <a href="#interesar" class="menu-top__link"
                 ><span class="icon-user">Preboda</span></a
               >
             </li>
             <li class="menu-top__item">
-              <a href="#" class="menu-top__link"
+              <a href="#ceremonia" class="menu-top__link"
                 ><span class="icon-users">Ceremonia</span></a
               >
             </li>
 
             <li class="menu-top__item">
-              <a href="#" class="menu-top__link"
+              <a href="#celebracion" class="menu-top__link"
                 ><span class="icon-users">Celebración</span></a
               >
             </li>
             <li class="menu-top__item">
-              <a href="#" class="menu-top__link"
+              <a href="#peluqueria" class="menu-top__link"
                 ><span class="icon-users">Peluquerías recomendadas</span></a
               >
             </li>
 
             <li class="menu-top__item">
-              <a href="#" class="menu-top__link"
+              <a href="#confirmacion" class="menu-top__link"
                 ><span class="icon-logout">Confirmación</span></a
               >
             </li>
@@ -77,7 +77,7 @@
 
         <a href="#" class="scroll__button" id="reproducir">Confirmación</a>
       </div>
-      <h2 class="canciones">Nuestras canciones</h2>
+      <h2 class="canciones" id="canciones">Nuestras canciones</h2>
       <div class="btn-play">
         <button class="btn-play__btn" id="play">
           <span class="icon-play"></span>
@@ -91,14 +91,16 @@
               <img src="img/detodo.png" alt="" class="music__img" />
             </div>
             <div class="music__info">
-              <a href="#" id="ILoveYouBaby">
+              <a href="#" id="ILoveYouBaby" class="ILoveYouBaby">
                 <h2 class="music__title">
                   Ily (I love you baby) (feat. Emiliee)
                 </h2>
                 <p class="music__artista">El principio de todo</p>
                 <audio
+                 
                   src="music/Surf Mesa - ily (i love you baby) (feat. Emilee) (Official Audio) (128 kbps).mp3"
                   id="ILoveYouBaby_play"
+                  class="ILoveYouBaby_play"
                 ></audio>
               </a>
             </div>
@@ -115,12 +117,13 @@
               <img src="img/paseo.png" alt="" class="music__img" />
             </div>
             <div class="music__info">
-              <a href="#" id="sentidos">
+              <a href="#" id="sentidos" class="sentidos">
                 <h2 class="music__title">5 sentidos</h2>
                 <p class="music__artista">Aquel paseo en barco</p>
                 <audio
                   src="music/Dvicio, Taburete - 5 Sentidos (128 kbps).mp3"
                   id="sentidos_play"
+                  class="sentidos_play"
                 ></audio>
               </a>
             </div>
@@ -141,6 +144,7 @@
                 <h2 class="music__title">Con te partirò</h2>
                 <p class="music__artista">Sunset en Formentera</p>
                 <audio
+
                   src="music/Andrea Bocelli - Con Te Partirò (2016 Orchestra and Choir Version) (128 kbps).mp3"
                   id="andreaBocelli_play"
                 ></audio>
@@ -189,6 +193,7 @@
                 <audio
                   src="music/Song From A Secret Garden (128 kbps).mp3"
                   id="secret_play"
+                  
                 ></audio>
               </a>
             </div>
@@ -225,7 +230,7 @@
           </div>
         </div>
 
-        <h2 class="title-interesar">También te puede interesar...</h2>
+        <h2 class="title-interesar" id="interesar">También te puede interesar...</h2>
         <div class="scroll__img-conten">
           <img
             src="img/ho.jpeg"
@@ -254,6 +259,7 @@
             src="img/Sagrario-CatedralJaen-1.jpg"
             alt="HO Ciudad de Jaén"
             class="scroll__img-interesar"
+            id="ceremonia"
           />
         </div>
         <div class="preboda">
@@ -281,6 +287,7 @@
             src="img/SDESDF.jpg"
             alt="HO Ciudad de Jaén"
             class="scroll__img-interesar"
+            id="celebracion"
           />
         </div>
         <div class="preboda">
@@ -301,7 +308,10 @@
         </div>
         
         <div class="scroll__img-conten">
-          <img src="img/peluqueria.jpg" alt="HO Ciudad de Jaén" class="scroll__img-interesar" />
+          <img src="img/peluqueria.jpg" 
+          alt="HO Ciudad de Jaén" 
+          class="scroll__img-interesar" 
+          id="peluqueria" />
         </div>
         <div class="preboda">
           <h3>PELUQUERÍA RECOMENDADA</h3>
@@ -326,7 +336,7 @@
               <img src="/img/WhatsApp Image 2022-02-09 at 18.37.24.jpeg" alt="" />
             </div>
             <h2>CONFÍRMANOS TU ASISTENCIA AQUÍ:</h2>
-            <a href="#" class="scroll__button_confirmacion" id="reproducir"
+            <a href="#" class="scroll__button_confirmacion" id="confirmacion"
               >Confirmación</a
             >
           </div>

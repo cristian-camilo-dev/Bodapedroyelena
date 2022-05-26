@@ -28,12 +28,29 @@ const like = document.getElementsByClassName('icon-heart')
 
 
 
+//que cuando un audio este sonando y ponga otro audio se pause el que este sonando
+
+document.addEventListener(
+    "play",
+    function(e) {
+      var audios = document.getElementsByTagName("audio");
+      for (var i = 0, len = audios.length; i < len; i++) {
+        if (audios[i] != e.target) {
+          audios[i].pause();
+        }
+      }
+    },
+    true
+  );
+
+
+
 
 for (let i = 0; i < like.length; i++) {
     like[i].addEventListener('click', (e) => {
         e.preventDefault()
         like[i].classList.toggle('corazon')
-        console.log(like[i])
+        
     })
 }
 
@@ -128,6 +145,7 @@ mostrar.addEventListener('click', () =>{
     if(cont == 1){
         menu.style.right = "1em"
         menu.style.transition = "all .3s"
+        
         cont =0;
     }else{
         cont =1;

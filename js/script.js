@@ -145,7 +145,7 @@ mostrar.addEventListener('click', () =>{
     if(cont == 1){
         menu.style.right = "1em"
         menu.style.transition = "all .3s"
-        
+
         cont =0;
     }else{
         cont =1;
@@ -171,3 +171,6 @@ btnCopy.addEventListener('click', () => {
         tooltip.classList.remove('show')
     }, 1000)
 })
+
+
+

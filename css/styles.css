@@ -374,7 +374,10 @@ color: #0ac442;
 .corazon{
     color: #87424C;
     filter: drop-shadow(2px 4px 4px #8f3e4a);
+    
 }
+
+
 
 .preboda h3{
   font-family:"Franklin Gothic Medium", sans-serif;
@@ -383,6 +386,7 @@ color: #0ac442;
   margin-top:10px;
   margin-bottom:0;
 }
+
 
 .preboda h4{
   font-family:"Franklin Gothic Medium", sans-serif;
@@ -479,7 +483,7 @@ color: #0ac442;
 .footer_titulo{
   font-family:"Franklin Gothic Medium", sans-serif;
   color: #87424C;
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin-bottom: 50px;
   margin-top: 100px;
   text-align: center;
@@ -494,7 +498,7 @@ color: #0ac442;
     margin-top: 39px;
 }
 
-.heart {
+.heartx {
   width: 32px; 
   height: 32px; 
   background-color: #ff1414;
@@ -502,7 +506,7 @@ color: #0ac442;
   animation: heartbeat 1.4s infinite; 
 }
 
-.heart:before {
+.heartx:before {
   content: ""; 
   position: absolute; 
   top: 0; 
@@ -515,7 +519,7 @@ color: #0ac442;
 }
 
 
-.heart:after {
+.heartx:after {
   content: ""; 
   position: absolute; 
   top: 0; 
@@ -697,3 +701,9 @@ color: #0ac442;
  
 100% {transform: translateY(-750%) translateX(-10%) scale(1) rotate(80deg); opacity: 0;}
 }
+
+
+
+
+
+

@@ -59,20 +59,20 @@ body {
   color: #ffffff;
 }
 
-.menu_fixe{
+.menu_fixe {
   position: fixed;
   right: 0px;
   color: #000000;
 }
 
-.icon-heart-empty{
+.icon-heart-empty {
   margin-right: 14px;
 }
 
 .scroll {
   width: 100%;
   padding-top: 5em;
-  padding-bottom: 8em;
+
   background: -webkit-gradient(
     linear,
     left top,
@@ -80,9 +80,9 @@ body {
     from(#5f6d8a),
     color-stop(50%, #000000)
   );
-  background: -webkit-linear-gradient(#87424C,#E3B7A5, #FEFBFB 100%);
-  background: -o-linear-gradient(#87424C,#E3B7A5, #FEFBFB 100%);
-  background: linear-gradient(#87424C,#E3B7A5, #FEFBFB 100%);
+  background: -webkit-linear-gradient(#87424c, #e3b7a5, #fefbfb 100%);
+  background: -o-linear-gradient(#87424c, #e3b7a5, #fefbfb 100%);
+  background: linear-gradient(#87424c, #e3b7a5, #fefbfb 100%);
 }
 .scroll__img-conten {
   width: 100%;
@@ -91,14 +91,13 @@ body {
   text-align: center;
 }
 .scroll__img {
-  width: 200px;
+  width: 250px;
   display: block;
-  height: 200px;
+  height: 250px;
   margin: auto;
 }
 
-
-.scroll__img-interesar{
+.scroll__img-interesar {
   width: 250px;
   display: block;
   height: 250px;
@@ -119,7 +118,7 @@ body {
   margin-bottom: 20px;
 }
 .scroll__button {
-  background-color: #87424C;
+  background-color: #87424c;
   text-decoration: none;
   color: #ffffff;
   text-transform: uppercase;
@@ -130,7 +129,6 @@ body {
 }
 
 .music {
- 
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0.5em;
@@ -161,6 +159,7 @@ body {
   grid-template-columns: 10% 80% 10%;
   background-color: #222327;
   border-bottom: 2px solid #131313;
+  margin-bottom: 104px;
 }
 
 .fixed {
@@ -218,7 +217,6 @@ body {
   display: block;
   margin-right: 15px;
 
-  
   box-shadow: 0 0 10px #131313;
 }
 
@@ -236,12 +234,10 @@ body {
 
 .music__info a {
   text-decoration: none;
-  
 }
 
-
 .title-interesar {
-  color: #87424C;
+  color: #87424c;
   font-size: 1.8em;
   font-weight: 500;
   margin: 50px;
@@ -263,7 +259,7 @@ body {
 .box .parrafo {
   margin-right: 20px;
   font-family: "Franklin Gothic Medium", sans-serif;
-
+  text-decoration: none;
   font-size: 15px;
   text-shadow: 0 0 black;
   text-align: center;
@@ -277,8 +273,8 @@ body {
   border: none;
 
   border-radius: 5px;
-  position: absolute;
-  top: 9px;
+  position: relative;
+  top: 1px;
   right: 23px;
 }
 
@@ -340,30 +336,24 @@ body {
   margin-top: 50px;
 }
 
-
-.btn-play__btn{
-  background-color: #87424C;
+.btn-play__btn {
+  background-color: #87424c;
   text-decoration: none;
   font-size: 18px;
   border-radius: 100%;
-  
+
   padding: 5px;
-  
- 
 }
-  
-.btn-play{
+
+.btn-play {
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
-  
-
 }
 
-.icon-play{
+.icon-play {
   color: #ffff;
   font-size: 25px;
-  
 }
 
 /*
@@ -371,64 +361,65 @@ color: #0ac442;
     filter: drop-shadow(2px 4px 6px #0ac442);
 */
 
-.corazon{
-    color: #87424C;
-    filter: drop-shadow(2px 4px 4px #8f3e4a);
-    
+.corazon {
+  color: #87424c;
+  filter: drop-shadow(2px 4px 4px #8f3e4a);
 }
 
+.instaDiego{
+  text-decoration: none;
+  color: #64121f;
+  
+}
 
-
-.preboda h3{
-  font-family:"Franklin Gothic Medium", sans-serif;
-  color: #87424C;
+.preboda h3 {
+  font-family: "Franklin Gothic Medium", sans-serif;
+  color: #87424c;
   font-size: 1em;
-  margin-top:10px;
-  margin-bottom:0;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
-
-.preboda h4{
-  font-family:"Franklin Gothic Medium", sans-serif;
+.preboda h4 {
+  font-family: "Franklin Gothic Medium", sans-serif;
   color: black;
   font-size: 0.9em;
   margin: 0;
 }
 
-.preboda p{
+.preboda p {
   color: black;
   font-size: 0.7em;
+  
 }
 
-.preboda p span{
-  color: #87424C;
+.preboda p span {
+  color: #87424c;
   font-size: 1em;
 }
 
-.reproductormusica{
+
+
+.reproductormusica {
   width: 100%;
   margin-bottom: 40px;
 }
 
 /*card*/
 
-
-.container__cards{
-  width:100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    
-  
+.container__cards {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.card{
+.card {
   width: 350px;
   margin: 10px;
   padding: 20px;
-  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   background: rgba(255, 255, 255, 0.1);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -438,37 +429,33 @@ color: #0ac442;
   transition: all 300ms;
 }
 
-.cover__card{
+.cover__card {
   width: 100%;
   height: 270px;
   border-radius: 14px;
   overflow: hidden;
-  
 }
 
-.cover__card img{
+.cover__card img {
   width: 100%;
   height: 100%;
   transition: all 300ms;
-  
-  
-  
 }
 
-.card h2{
-  font-family:"Franklin Gothic Medium", sans-serif;
-  color: #87424C;
+.card h2 {
+  font-family: "Franklin Gothic Medium", sans-serif;
+  color: #87424c;
   font-size: 1.2em;
   margin-bottom: 50px;
   text-align: center;
 }
 
-.scroll__button_confirmacion{
+.scroll__button_confirmacion {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  background-color: #87424C;
+  background-color: #87424c;
   text-decoration: none;
   color: #ffffff;
   text-transform: uppercase;
@@ -480,230 +467,264 @@ color: #0ac442;
   margin: auto;
 }
 
-.footer_titulo{
-  font-family:"Franklin Gothic Medium", sans-serif;
-  color: #87424C;
+.footer_titulo {
+  font-family: "Franklin Gothic Medium", sans-serif;
+  color: #87424c;
   font-size: 1.3em;
-  margin-bottom: 50px;
   margin-top: 100px;
   text-align: center;
 }
 
-
-
-
-.corazon_footer{
+.corazon_footer {
   position: absolute;
-    left: 200px;
-    margin-top: 39px;
+  left: 196px;
+  margin-top: 39px;
+}
+
+.avion_img{
+  width: 310px;
+    display: block;
+    height: 233px;
+    margin: auto;
 }
 
 .heartx {
-  width: 32px; 
-  height: 32px; 
+  width: 32px;
+  height: 32px;
   background-color: #ff1414;
   transform: translate(-50%, -50%) rotate(45deg);
-  animation: heartbeat 1.4s infinite; 
+  animation: heartbeat 1.4s infinite;
 }
 
 .heartx:before {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateY(-50%);
   border-radius: 50%;
 }
 
-
 .heartx:after {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateX(-50%);
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 @keyframes heartbeat {
-  0% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
-  25% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
-  30% { transform: translate(-50%, -50%) rotate(45deg) scale(1.4); }
-  50% { transform: translate(-50%, -50%) rotate(45deg) scale(1.2); }
-  70% { transform: translate(-50%, -50%) rotate(45deg) scale(1.4); }
-  100% { transform: translate(-50%, -50%) rotate(45deg) scale(1); }
+  0% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  }
+  25% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  }
+  30% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.4);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.2);
+  }
+  70% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.4);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+  }
 }
 
 .heart1 {
-  width: 32px; 
-  height: 32px; 
+  width: 32px;
+  height: 32px;
   background-color: #ff1414;
-  transform: translate(-50%, -160%) rotate(45deg); 
+  transform: translate(-50%, -160%) rotate(45deg);
 }
 
 .heart1:before {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateY(-50%);
   border-radius: 50%;
 }
 
 .heart1:after {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateX(-50%);
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
-
 .heart1 {
-  animation: heart1 2.5s ease-out 1s infinite; }
+  animation: heart1 2.5s ease-out 1s infinite;
+}
 
 @keyframes heart1 {
-  0% {transform: translateY(-200%) translateX(0) scale(0.25) rotate(45deg); opacity: 1;}
- 
-100% {transform: translateY(-400%) translateX(0) scale(1) rotate(50deg); opacity: 0;}
+  0% {
+    transform: translateY(-200%) translateX(0) scale(0.25) rotate(45deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-400%) translateX(0) scale(1) rotate(50deg);
+    opacity: 0;
+  }
 }
 
 .heart2 {
-  width: 32px; 
-  height: 32px; 
+  width: 32px;
+  height: 32px;
   background-color: #ff1414;
-  transform: translate(-50%, -250%) rotate(45deg); 
+  transform: translate(-50%, -250%) rotate(45deg);
 }
 
 .heart2:before {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateY(-50%);
   border-radius: 50%;
 }
 
 .heart2:after {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateX(-50%);
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 .heart2 {
-  animation: heart2 4s ease-out 1s infinite; }
+  animation: heart2 4s ease-out 1s infinite;
+}
 
 @keyframes heart2 {
-  0% {transform: translateY(-300%) translateX(-100%) scale(0.25) rotate(-20deg); opacity: 0.2;}
- 
-100% {transform: translateY(-500%) translateX(-10%) scale(1) rotate(45deg); opacity: 0;}
+  0% {
+    transform: translateY(-300%) translateX(-100%) scale(0.25) rotate(-20deg);
+    opacity: 0.2;
+  }
+
+  100% {
+    transform: translateY(-500%) translateX(-10%) scale(1) rotate(45deg);
+    opacity: 0;
+  }
 }
 
 .heart3 {
-  width: 32px; 
-  height: 32px; 
+  width: 32px;
+  height: 32px;
   background-color: #ff1414;
-  transform: translate(-50%, -350%) rotate(45deg); 
+  transform: translate(-50%, -350%) rotate(45deg);
 }
 
 .heart3:before {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateY(-50%);
   border-radius: 50%;
 }
 
 .heart3:after {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateX(-50%);
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 .heart3 {
-  animation: heart3 2s ease-out 1s infinite; }
+  animation: heart3 2s ease-out 1s infinite;
+}
 
 @keyframes heart3 {
-  0% {transform: translateY(-430%) translateX(-100%) scale(0.25) rotate(20deg); opacity: 0.2;}
- 
-100% {transform: translateY(-650%) translateX(-10%) scale(1) rotate(60deg); opacity: 0;}
+  0% {
+    transform: translateY(-430%) translateX(-100%) scale(0.25) rotate(20deg);
+    opacity: 0.2;
+  }
+
+  100% {
+    transform: translateY(-650%) translateX(-10%) scale(1) rotate(60deg);
+    opacity: 0;
+  }
 }
 
 .heart4 {
-  width: 32px; 
-  height: 32px; 
+  width: 32px;
+  height: 32px;
   background-color: #ff1414;
-  transform: translate(-50%, -450%) rotate(45deg); 
+  transform: translate(-50%, -450%) rotate(45deg);
 }
 
 .heart4:before {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateY(-50%);
   border-radius: 50%;
 }
 
 .heart4:after {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  width: 100%; 
-  height: 100%; 
-  background-color: #ff1414; 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1414;
   transform: translateX(-50%);
-  border-radius: 50%; 
+  border-radius: 50%;
 }
-
 
 .heart4 {
-  animation: heart4 2.3s ease-out 1s infinite; }
-
-@keyframes heart4 {
-  0% {transform: translateY(-450%) translateX(-100%) scale(0.25) rotate(45deg); opacity: 0.2;}
- 
-100% {transform: translateY(-750%) translateX(-10%) scale(1) rotate(80deg); opacity: 0;}
+  animation: heart4 2.3s ease-out 1s infinite;
 }
 
+@keyframes heart4 {
+  0% {
+    transform: translateY(-450%) translateX(-100%) scale(0.25) rotate(45deg);
+    opacity: 0.2;
+  }
 
-
-
-
-
+  100% {
+    transform: translateY(-750%) translateX(-10%) scale(1) rotate(80deg);
+    opacity: 0;
+  }
+}

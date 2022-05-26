@@ -159,7 +159,7 @@ mostrar.addEventListener('click', () =>{
 
 
 const btnCopy = document.querySelector('.btn-copy')
-const txtCopy = document.querySelector('.box p');
+const txtCopy = document.querySelector('.box span');
 const tooltip = document.querySelector('.tooltip');
 
 const txt = "Hello World"

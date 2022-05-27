@@ -24,6 +24,9 @@ const secret_play = document.getElementById('secret_play')
 const todoDeTi = document.getElementById('todoDeTi')
 const todoDeTi_play = document.getElementById('todoDeTi_play')
 
+const cancionPrincipal = document.getElementById('cancionPrincipal')
+const cancionPrincipal_play = document.getElementById('cancionPrincipal_play')
+
 const like = document.getElementsByClassName('icon-heart')
 
 
@@ -53,6 +56,17 @@ for (let i = 0; i < like.length; i++) {
         
     })
 }
+
+
+cancionPrincipal.addEventListener('click', (e) => {
+    e.preventDefault()
+    if(cancionPrincipal_play.paused){
+        cancionPrincipal_play.play()
+        
+    }else{
+        cancionPrincipal_play.pause()
+    }
+})
 
 
 todoDeTi.addEventListener('click', (e) => {

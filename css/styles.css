@@ -336,13 +336,8 @@ body {
   margin-top: 50px;
 }
 
-.btn-play__btn {
-  background-color: #87424c;
-  text-decoration: none;
-  font-size: 18px;
-  border-radius: 100%;
-
-  padding: 5px;
+.gif_play {
+  width: 50px;
 }
 
 .btn-play {
@@ -471,7 +466,7 @@ color: #0ac442;
   font-family: "Franklin Gothic Medium", sans-serif;
   color: #87424c;
   font-size: 1.3em;
-  margin-top: 100px;
+  
   text-align: center;
 }
 
@@ -481,11 +476,23 @@ color: #0ac442;
   margin-top: 39px;
 }
 
+.footer_honey{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .avion_img{
-  width: 310px;
-    display: block;
-    height: 233px;
-    margin: auto;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+.gif_corazon{
+  width: 200px;
+  height: 200px;
 }
 
 .heartx {

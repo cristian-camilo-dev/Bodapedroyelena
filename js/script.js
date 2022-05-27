@@ -28,7 +28,7 @@ const cancionPrincipal = document.getElementById('cancionPrincipal')
 const cancionPrincipal_play = document.getElementById('cancionPrincipal_play')
 
 const like = document.getElementsByClassName('icon-heart')
-
+const input_likes = document.getElementById('input_likes')
 
 
 //que cuando un audio este sonando y ponga otro audio se pause el que este sonando
@@ -53,7 +53,7 @@ for (let i = 0; i < like.length; i++) {
     like[i].addEventListener('click', (e) => {
         e.preventDefault()
         like[i].classList.toggle('corazon')
-        
+        input_likes.value= parseInt(input_likes.value) + 1
     })
 }
 

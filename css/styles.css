@@ -134,6 +134,7 @@ body {
   box-sizing: border-box;
   padding: 0.5em;
   font-family: "Franklin Gothic Medium", sans-serif;
+  margin-left: 5px;
 }
 .music__title {
   color: #ffffff;
@@ -387,6 +388,11 @@ color: #0ac442;
   color: black;
   font-size: 0.7em;
   
+  
+}
+
+.preboda{
+  padding: 5px;
 }
 
 .preboda p span {

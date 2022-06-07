@@ -1,299 +1,419 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Boda Pedro & Elena</title>
+    <link rel="stylesheet" href="css/css/fontello.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/font/titulos/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <title>Boda Pedro & Elena</title>
-  <link rel="stylesheet" href="css/css/fontello.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/font/titulos/stylesheet.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet" />
-</head>
-
-<body>
-  <header class="header" id="header">
-    <div class="grid-2-small header__menu">
-      <div class="header__icon">
-        <span class="icon-left-big"></span>
-      </div>
-      <div class="header__icon-right">
-        <span class="icon-heart-empty"></span>
-        <span class="icon-ellipsis-vert menu_fixe" id="menu"></span>
-        <ul class="menu-top" id="mostrar">
-          <li class="menu-top__item">
-            <a href="#canciones" class="menu-top__link"><span class="icon-clone">Nuestras canciones</span></a>
-          </li>
-          <li class="menu-top__item">
-            <a href="#interesar" class="menu-top__link"><span class="icon-user">Preboda</span></a>
-          </li>
-          <li class="menu-top__item">
-            <a href="#ceremonia" class="menu-top__link"><span class="icon-users">Ceremonia</span></a>
-          </li>
-
-          <li class="menu-top__item">
-            <a href="#celebracion" class="menu-top__link"><span class="icon-users">Celebración</span></a>
-          </li>
-          <li class="menu-top__item">
-            <a href="#peluqueria" class="menu-top__link"><span class="icon-users">Peluquerías recomendadas</span></a>
-          </li>
-
-          <li class="menu-top__item">
-            <a href="#confirmacion" class="menu-top__link"><span class="icon-logout">Confirmación</span></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </header>
-  <div class="scroll">
-    <div class="scroll__img-conten">
-      <img src="img/principal.JPG" alt="" class="scroll__img" />
-    </div>
-    <div class="scroll__conten">
-      <h1 class="scroll__title">Pedro y Elena</h1>
-      <p class="scroll__description">
-        Nos encantaría compartir contigo este día tan especial
-      </p>
-      <p class="scroll__description">
-        El Sagrario - Catedral de Jaén <br />Sábado 19 de Noviembre 2022 11.00
-        AM
-      </p>
-
-      <a href="#" class="scroll__button" id="reproducir">Confirmación</a>
-    </div>
-    <h2 class="canciones" id="canciones">Nuestras canciones</h2>
-    <div class="btn-play">
-      
-     
-     <a href="#" id="cancionPrincipal" class="ILoveYouBaby">
-      <img src="img/Play-unscreen.gif" alt="play__btn" class="gif_play">
-      <audio src="music/yt1s.com - Marcha Nupcial Perreo Mix  Sebas Alizzi Chilecito La Rioja.mp3"
-     id="cancionPrincipal_play" class="ILoveYouBaby_play"></audio>
-     </a>
-      
-      
-    </div>
-
-    <div class="music">
-      <div class="grid-2-small">
-        <div class="music__artista">
-          <div class="music_img">
-            <img src="img/detodo.png" alt="" class="music__img" />
-          </div>
-          <div class="music__info">
-            <a href="#" id="ILoveYouBaby" class="ILoveYouBaby">
-              <h2 class="music__title">
-                Ily (I love you baby) (feat. Emiliee)
-              </h2>
-              <p class="music__artista">El principio de todo</p>
-              <audio src="music/Surf Mesa - ily (i love you baby) (feat. Emilee) (Official Audio) (128 kbps).mp3"
-                id="ILoveYouBaby_play" class="ILoveYouBaby_play"></audio>
-            </a>
-          </div>
+  <body>
+    <header class="header" id="header">
+      <div class="grid-2-small header__menu">
+        <div class="header__icon">
+          <span class="icon-left-big"></span>
         </div>
-        <div class="music__icon">
-          <span class="icon-heart" id="corazon-icon"></span>
-          <span class="icon-minus-squared-alt"></span>
-          <span class="icon-ellipsis-vert"></span>
+        <div class="header__icon-right">
+          <span class="icon-heart-empty"></span>
+          <span class="icon-ellipsis-vert menu_fixe" id="menu"></span>
+          <ul class="menu-top" id="mostrar">
+            <li class="menu-top__item">
+              <a href="#canciones" class="menu-top__link"
+                ><span class="icon-clone">Nuestras canciones</span></a
+              >
+            </li>
+            <li class="menu-top__item">
+              <a href="#interesar" class="menu-top__link"
+                ><span class="icon-user">Preboda</span></a
+              >
+            </li>
+            <li class="menu-top__item">
+              <a href="#ceremonia" class="menu-top__link"
+                ><span class="icon-users">Ceremonia</span></a
+              >
+            </li>
+
+            <li class="menu-top__item">
+              <a href="#celebracion" class="menu-top__link"
+                ><span class="icon-users">Celebración</span></a
+              >
+            </li>
+            <li class="menu-top__item">
+              <a href="#peluqueria" class="menu-top__link"
+                ><span class="icon-users">Peluquerías recomendadas</span></a
+              >
+            </li>
+
+            <li class="menu-top__item">
+              <a href="#confirmacion" class="menu-top__link"
+                ><span class="icon-logout">Confirmación</span></a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="grid-2-small">
-        <div class="music__artista">
-          <div class="music_img">
-            <img src="img/paseo.png" alt="" class="music__img" />
-          </div>
-          <div class="music__info">
-            <a href="#" id="sentidos" class="sentidos">
-              <h2 class="music__title">5 sentidos</h2>
-              <p class="music__artista">Aquel paseo en barco</p>
-              <audio src="music/Dvicio, Taburete - 5 Sentidos (128 kbps).mp3" id="sentidos_play"
-                class="sentidos_play"></audio>
-            </a>
-          </div>
-        </div>
-        <div class="music__icon">
-          <span class="icon-heart"></span>
-          <span class="icon-minus-squared-alt"></span>
-          <span class="icon-ellipsis-vert"></span>
-        </div>
-      </div>
-      <div class="grid-2-small">
-        <div class="music__artista">
-          <div class="music_img">
-            <img src="img/sol.jpeg" alt="" class="music__img" />
-          </div>
-          <div class="music__info">
-            <a href="#" id="andreaBocelli">
-              <h2 class="music__title">Con te partirò</h2>
-              <p class="music__artista">Sunset en Formentera</p>
-              <audio src="music/Andrea Bocelli - Con Te Partirò (2016 Orchestra and Choir Version) (128 kbps).mp3"
-                id="andreaBocelli_play"></audio>
-            </a>
-          </div>
-        </div>
-        <div class="music__icon">
-          <span class="icon-heart"></span>
-          <span class="icon-minus-squared-alt"></span>
-          <span class="icon-ellipsis-vert"></span>
-        </div>
-      </div>
-
-      <div class="grid-2-small">
-        <div class="music__artista">
-          <div class="music_img">
-            <img src="img/vestido.jpeg" alt="" class="music__img" />
-          </div>
-          <div class="music__info">
-            <a href="#" id="leave">
-              <h2 class="music__title">Leave the door open</h2>
-              <p class="music__artista">Imaginame vestida de blanco</p>
-              <audio
-                src="music/Bruno.mp3"
-                id="leave_play"></audio>
-            </a>
-          </div>
-        </div>
-        <div class="music__icon">
-          <span class="icon-heart"></span>
-          <span class="icon-minus-squared-alt"></span>
-          <span class="icon-ellipsis-vert"></span>
-        </div>
-      </div>
-
-      <div class="grid-2-small play-lits">
-        <div class="music__artista">
-          <div class="music_img">
-            <img src="img/camino.jpeg" alt="" class="music__img" />
-          </div>
-          <div class="music__info">
-            <a href="#" id="secret">
-              <h2 class="music__title">Song from a Secret Garden</h2>
-              <p class="music__artista">Camino al altar</p>
-              <audio src="music/Song From A Secret Garden (128 kbps).mp3" id="secret_play"></audio>
-            </a>
-          </div>
-        </div>
-        <div class="music__icon">
-          <span class="icon-heart"></span>
-          <span class="icon-minus-squared-alt"></span>
-          <span class="icon-ellipsis-vert"></span>
-        </div>
-      </div>
-
-      <div class="grid-2-small play-lits">
-        <div class="music__artista">
-          <div class="music_img">
-            <img src="img/mano.jpeg" alt="" class="music__img" />
-          </div>
-          <div class="music__info">
-            <a href="#" id="todoDeTi">
-              <h2 class="music__title">Todo de ti</h2>
-              <p class="music__artista">
-                Preparaos para celebrarlo a lo grande
-              </p>
-              <audio src="music/Rauw Alejandro - Todo De Ti (Letra_Lyrics) (128 kbps).mp3" id="todoDeTi_play"></audio>
-            </a>
-          </div>
-        </div>
-        <div class="music__icon">
-          <span class="icon-heart"></span>
-          <span class="icon-minus-squared-alt"></span>
-          <span class="icon-ellipsis-vert"></span>
-        </div>
-        
-      </div>
-
-      <div class="contenedor_likes">
-        <img src="/img/Online-Giving-Like-unscreen.gif" alt="like">
-        <input type="number" name="likes" id="input_likes" value="0">
-      </div>
-
-      <h2 class="title-interesar" id="interesar">
-        También te puede interesar...
-      </h2>
+    </header>
+    <div class="scroll">
       <div class="scroll__img-conten">
-        <img src="img/ho.jpeg" alt="HO Ciudad de Jaén" class="scroll__img-interesar" />
+        <img src="img/principal.JPG" alt="" class="scroll__img" />
       </div>
-      <div class="preboda">
-        <h3>PREBODA Viernes 18Nov.</h3>
-        <h4>Cóctel tarde-noche · HO Ciudad de Jaén</h4>
-        <p>
-          Autovía, Carr.Bailén - Motril, km 36-37 , 23009 Jaén <br />
-          <span>DRESSCODE · Cóctel de noche</span>
+      <div class="scroll__conten">
+        <h1 class="scroll__title">Pedro y Elena</h1>
+        <p class="scroll__description">
+          Nos encantaría compartir contigo este día tan especial
         </p>
-      </div>
-      <div>
-        <img src="img/reproductormusica-removebg-preview.png" alt="" class="reproductormusica" />
-      </div>
-
-      <div class="scroll__img-conten">
-        <img src="img/Sagrario-CatedralJaen-1.jpg" alt="HO Ciudad de Jaén" class="scroll__img-interesar"
-          id="ceremonia" />
-      </div>
-      <div class="preboda">
-        <h3>CEREMONIA Sábado 19Nov. 11:00H.</h3>
-
-        <p>
-          Calle Campanas 3. 23002 Jaén
-          <br />
-          <span>DRESSCODE MUJER : Pamela · Tocado · Excluido color
-            negro/blanco</span>
+        <p class="scroll__description">
+          El Sagrario - Catedral de Jaén <br />Sábado 19 de Noviembre 2022 11.00
+          AM
         </p>
+
+        <a href="https://planning.wedding/es/website/RRzzuiOAsT"  target="_blank" class="scroll__button" id="reproducir">Confirmación</a>
       </div>
-      <div>
-        <img src="img/reproductormusica-removebg-preview.png" alt="" class="reproductormusica" />
+      <h2 class="canciones" id="canciones">Nuestras canciones</h2>
+      <div class="btn-play">
+        <a href="#" id="cancionPrincipal" class="ILoveYouBaby">
+          <img src="img/Play-unscreen.gif" alt="play__btn" class="gif_play" />
+          <audio
+            src="music/yt1s.com - Marcha Nupcial Perreo Mix  Sebas Alizzi Chilecito La Rioja.mp3"
+            id="cancionPrincipal_play"
+            class="ILoveYouBaby_play"
+          ></audio>
+        </a>
       </div>
 
-      <div class="scroll__img-conten">
-        <img src="img/SDESDF.jpg" alt="HO Ciudad de Jaén" class="scroll__img-interesar" id="celebracion" />
-      </div>
-      <div class="preboda">
-        <h3>CELEBRACIÓN</h3>
-        <h4>HO Ciudad de Jaén</h4>
-        <p>
-          Cóctel de bienvenida : Jardín de la Estrella | Celebración : Salón
-          Estrella <br />
-        </p>
-      </div>
-
-      <div>
-        <img src="img/reproductormusica-removebg-preview.png" alt="" class="reproductormusica" />
-      </div>
-
-      <div class="scroll__img-conten">
-        <img src="img/peluqueria.jpg" alt="HO Ciudad de Jaén" class="scroll__img-interesar" id="peluqueria" />
-      </div>
-      <div class="preboda">
-        <h3>PELUQUERÍA RECOMENDADA</h3>
-        <h3>Salón Diego Cámara</h3>
-        <h4>diegocamarahairandmakeup@gmail.com</h4>
-        <a href="https://www.instagram.com/_diegocamara/" target="_blank"
-          class="icon-instagram instaDiego">@_diegocamara</a>
-      </div>
-      <div>
-        <img src="img/reproductormusica-removebg-preview.png" alt="" class="reproductormusica" />
-      </div>
-
-      <div class="container__cards">
-        <div class="card">
-          <div class="cover__card">
-            <img src="/img/WhatsApp Image 2022-02-09 at 18.37.24.jpeg" alt="" />
+      <div class="music">
+        <div class="grid-2-small">
+          <div class="music__artista">
+            <div class="music_img">
+              <img src="img/detodo.png" alt="" class="music__img" />
+            </div>
+            <div class="music__info">
+              <a href="#" id="ILoveYouBaby" class="ILoveYouBaby">
+                <h2 class="music__title">
+                  Ily (I love you baby) (feat. Emiliee)
+                </h2>
+                <p class="music__artista">El principio de todo</p>
+                <audio
+                  src="music/Surf Mesa - ily (i love you baby) (feat. Emilee) (Official Audio) (128 kbps).mp3"
+                  id="ILoveYouBaby_play"
+                  class="ILoveYouBaby_play"
+                ></audio>
+              </a>
+            </div>
           </div>
-          <h2>CONFÍRMANOS TU ASISTENCIA AQUÍ:</h2>
-          <a href="#" class="scroll__button_confirmacion" id="confirmacion">Confirmación</a>
+          <div class="music__icon">
+            <span class="icon-heart" id="corazon-icon"></span>
+            <span class="icon-minus-squared-alt"></span>
+            <span class="icon-ellipsis-vert"></span>
+          </div>
         </div>
-      </div>
+        <div class="grid-2-small">
+          <div class="music__artista">
+            <div class="music_img">
+              <img src="img/paseo.png" alt="" class="music__img" />
+            </div>
+            <div class="music__info">
+              <a href="#" id="sentidos" class="sentidos">
+                <h2 class="music__title">5 sentidos</h2>
+                <p class="music__artista">Aquel paseo en barco</p>
+                <audio
+                  src="music/Dvicio, Taburete - 5 Sentidos (128 kbps).mp3"
+                  id="sentidos_play"
+                  class="sentidos_play"
+                ></audio>
+              </a>
+            </div>
+          </div>
+          <div class="music__icon">
+            <span class="icon-heart"></span>
+            <span class="icon-minus-squared-alt"></span>
+            <span class="icon-ellipsis-vert"></span>
+          </div>
+        </div>
+        <div class="grid-2-small">
+          <div class="music__artista">
+            <div class="music_img">
+              <img src="img/sol.jpeg" alt="" class="music__img" />
+            </div>
+            <div class="music__info">
+              <a href="#" id="andreaBocelli">
+                <h2 class="music__title">Con te partirò</h2>
+                <p class="music__artista">Sunset en Formentera</p>
+                <audio
+                  src="music/Andrea Bocelli - Con Te Partirò (2016 Orchestra and Choir Version) (128 kbps).mp3"
+                  id="andreaBocelli_play"
+                ></audio>
+              </a>
+            </div>
+          </div>
+          <div class="music__icon">
+            <span class="icon-heart"></span>
+            <span class="icon-minus-squared-alt"></span>
+            <span class="icon-ellipsis-vert"></span>
+          </div>
+        </div>
 
-     
+        <div class="grid-2-small">
+          <div class="music__artista">
+            <div class="music_img">
+              <img src="img/vestido.jpeg" alt="" class="music__img" />
+            </div>
+            <div class="music__info">
+              <a href="#" id="leave">
+                <h2 class="music__title">Leave the door open</h2>
+                <p class="music__artista">Imaginame vestida de blanco</p>
+                <audio src="music/Bruno.mp3" id="leave_play"></audio>
+              </a>
+            </div>
+          </div>
+          <div class="music__icon">
+            <span class="icon-heart"></span>
+            <span class="icon-minus-squared-alt"></span>
+            <span class="icon-ellipsis-vert"></span>
+          </div>
+        </div>
 
-      <div class="footer_honey">
-        <img src="img/corazon_m.gif" alt="" class="gif_corazon" />
-      
-      </div>
+        <div class="grid-2-small play-lits">
+          <div class="music__artista">
+            <div class="music_img">
+              <img src="img/camino.jpeg" alt="" class="music__img" />
+            </div>
+            <div class="music__info">
+              <a href="#" id="secret">
+                <h2 class="music__title">Song from a Secret Garden</h2>
+                <p class="music__artista">Camino al altar</p>
+                <audio
+                  src="music/Song From A Secret Garden (128 kbps).mp3"
+                  id="secret_play"
+                ></audio>
+              </a>
+            </div>
+          </div>
+          <div class="music__icon">
+            <span class="icon-heart"></span>
+            <span class="icon-minus-squared-alt"></span>
+            <span class="icon-ellipsis-vert"></span>
+          </div>
+        </div>
+
+        <div class="grid-2-small play-lits">
+          <div class="music__artista">
+            <div class="music_img">
+              <img src="img/mano.jpeg" alt="" class="music__img" />
+            </div>
+            <div class="music__info">
+              <a href="#" id="todoDeTi">
+                <h2 class="music__title">Todo de ti</h2>
+                <p class="music__artista">
+                  Preparaos para celebrarlo a lo grande
+                </p>
+                <audio
+                  src="music/Rauw Alejandro - Todo De Ti (Letra_Lyrics) (128 kbps).mp3"
+                  id="todoDeTi_play"
+                ></audio>
+              </a>
+            </div>
+          </div>
+          <div class="music__icon">
+            <span class="icon-heart"></span>
+            <span class="icon-minus-squared-alt"></span>
+            <span class="icon-ellipsis-vert"></span>
+          </div>
+        </div>
+
+        <div class="contenedor_likes">
+          <img src="/img/Online-Giving-Like-unscreen.gif" alt="like" />
+          <input type="number" name="likes" id="input_likes" value="0" />
+        </div>
+
+        <h2 class="title-interesar" id="interesar">
+          También te puede interesar...
+        </h2>
+        <div class="scroll__img-conten">
+          <img
+            src="img/ho.jpeg"
+            alt="HO Ciudad de Jaén"
+            class="scroll__img-interesar"
+          />
+        </div>
+        <div class="preboda">
+          <h3>PREBODA Viernes 18Nov.</h3>
+          <h4>Cóctel tarde-noche · HO Ciudad de Jaén</h4>
+          <p>
+            Autovía, Carr.Bailén - Motril, km 36-37 , 23009 Jaén <br />
+            <span>DRESSCODE · Cóctel de noche</span>
+          </p>
+        </div>
+        <div>
+          <img
+            src="img/reproductormusica-removebg-preview.png"
+            alt=""
+            class="reproductormusica"
+          />
+        </div>
+
+        <div class="scroll__img-conten">
+          <img
+            src="img/Sagrario-CatedralJaen-1.jpg"
+            alt="HO Ciudad de Jaén"
+            class="scroll__img-interesar"
+            id="ceremonia"
+          />
+        </div>
+        <div class="preboda">
+          <h3>CEREMONIA Sábado 19Nov. 11:00H.</h3>
+
+          <p>
+            Calle Campanas 3. 23002 Jaén
+            <br />
+            <span
+              >DRESSCODE MUJER : Pamela · Tocado · Excluido color
+              negro/blanco</span
+            >
+          </p>
+        </div>
+        <div>
+          <img
+            src="img/reproductormusica-removebg-preview.png"
+            alt=""
+            class="reproductormusica"
+          />
+        </div>
+
+        <div class="scroll__img-conten">
+          <img
+            src="img/SDESDF.jpg"
+            alt="HO Ciudad de Jaén"
+            class="scroll__img-interesar"
+            id="celebracion"
+          />
+        </div>
+        <div class="preboda">
+          <h3>CELEBRACIÓN</h3>
+          <h4>HO Ciudad de Jaén</h4>
+          <p>
+            Cóctel de bienvenida : Jardín de la Estrella | Celebración : Salón
+            Estrella <br />
+          </p>
+        </div>
+
+        <div>
+          <img
+            src="img/reproductormusica-removebg-preview.png"
+            alt=""
+            class="reproductormusica"
+          />
+        </div>
+
+        <div class="slider">
+          <div class="slider-track">
+            <div class="slide">
+              <img src="img/hotel1.jpeg" alt="" class="slider-img" />
+            </div>
+
+            <div class="slide">
+              <img src="img/hotel2.jpeg" alt="" class="slider-img" />
+            </div>
+
+            <div class="slide">
+              <img src="img/hotel3.jpeg" alt="" class="slider-img" />
+            </div>
+
+
+            <div class="slide">
+              <img src="img/hotel1.jpeg" alt="" class="slider-img" />
+            </div>
+
+            <div class="slide">
+              <img src="img/hotel2.jpeg" alt="" class="slider-img" />
+            </div>
+
+            <div class="slide">
+              <img src="img/hotel3.jpeg" alt="" class="slider-img" />
+            </div>
+          </div>
+        </div>
+
+        <div class="preboda">
+          <h3>HOTEL HO JAÉN</h3>
+          <h4>AUTOVÍA BAILÉN-MOTRIL, KM 36-37 - 23009 JAÉN</h4>
+
+          <div class="hotel-contacto">
+            <a href="tel:+34953284800"
+            class="icon-phone "
+
+        >(+34) 953 284 800</a>
+        <a
+          href="mailto:reservasjaen@hotelesho.com"
+          target="_blank"
+          class="icon-mail "
+          >reservasjaen@hotelesho.com</a>
+          </div>
+          
+        </div>
+        <div>
+          <img
+            src="img/reproductormusica-removebg-preview.png"
+            alt=""
+            class="reproductormusica"
+          />
+        </div>
+
+        <div class="scroll__img-conten">
+          <img
+            src="img/peluqueria.jpg"
+            alt="HO Ciudad de Jaén"
+            class="scroll__img-interesar"
+            id="peluqueria"
+          />
+        </div>
+        <div class="preboda">
+          <h3>PELUQUERÍA RECOMENDADA</h3>
+          <h3>Salón Diego Cámara</h3>
+          <h4>diegocamarahairandmakeup@gmail.com</h4>
+          <a
+            href="https://www.instagram.com/_diegocamara/"
+            target="_blank"
+            class="icon-instagram instaDiego"
+            >@_diegocamara</a
+          >
+        </div>
+        <div>
+          <img
+            src="img/reproductormusica-removebg-preview.png"
+            alt=""
+            class="reproductormusica"
+          />
+        </div>
+
+        <div class="container__cards">
+          <div class="card">
+            <div class="cover__card">
+              <img
+                src="/img/WhatsApp Image 2022-02-09 at 18.37.24.jpeg"
+                alt=""
+              />
+            </div>
+            <h2>CONFÍRMANOS TU ASISTENCIA AQUÍ:</h2>
+            <a href="https://planning.wedding/es/website/RRzzuiOAsT"  target="_blank" class="scroll__button_confirmacion" id="confirmacion"
+              >Confirmación</a
+            >
+          </div>
+        </div>
+
+        <div class="footer_honey">
+          <img src="img/corazon_m.gif" alt="" class="gif_corazon" />
+        </div>
 
         <div>
           <h2 class="footer_titulo animated pulse">
@@ -301,9 +421,17 @@
           </h2>
           <img src="/img/avion.png" alt="avion" class="avion_img" />
         </div>
-        <div class = "banco">
-          <img src="/img/banco-santander-logo-9.png" alt="banco" class="banco_img" />
-          <img src="/img/flecha-unscreen.gif" alt="flecha" class ="banco_flecha">
+        <div class="banco">
+          <img
+            src="/img/banco-santander-logo-9.png"
+            alt="banco"
+            class="banco_img"
+          />
+          <img
+            src="/img/flecha-unscreen.gif"
+            alt="flecha"
+            class="banco_flecha"
+          />
         </div>
       </div>
     </div>
@@ -314,7 +442,6 @@
       </div>
       <div class="box">
         <span class="parrafo">ES8900730100510652306059 </span>
-        
       </div>
       <div class="music__icon">
         <button class="icon-clone btn-copy"></button>
@@ -331,19 +458,23 @@
           <ul class="menu">
             <li class="menu__item">
               <a href="#" class="menu__link">
-                <span class="icon-home menu__icon"></span>Inicio</a>
+                <span class="icon-home menu__icon"></span>Inicio</a
+              >
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link">
-                <span class="icon-search menu__icon"></span>Buscar</a>
+                <span class="icon-search menu__icon"></span>Buscar</a
+              >
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link">
-                <span class="icon-clone menu__icon"></span>Mi Biblioteca</a>
+                <span class="icon-clone menu__icon"></span>Mi Biblioteca</a
+              >
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link">
-                <span class="icon-spotify menu__icon"></span>Premium</a>
+                <span class="icon-spotify menu__icon"></span>Premium</a
+              >
             </li>
           </ul>
         </nav>
@@ -352,6 +483,5 @@
     <script src="js/script.js"></script>
     <script src="js/simplyCountdown.min.js"></script>
     <script src="js/countdown.js"></script>
-</body>
-
+  </body>
 </html>
